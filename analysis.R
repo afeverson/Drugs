@@ -6,7 +6,7 @@ library(scales)
 library(dplyr)
 
 ##importing the data
-load("C:/Users/August/Documents/Drug Data Project/ICPSR_34933/DS0001/34933-0001-Data.rda")
+load("data")
 Drugs <- da34933.0001
 rm(da34933.0001)
 View(Drugs)
